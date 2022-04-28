@@ -3,15 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro segundo,ano,mes,dia
+		inteiro segundos,hora,minuto,segundo
 		escreva("Entre com o tempo de duração do evento em segundos:")
-		leia(segundo)
-		ano= segundo/(86400*365)
-		mes= segundo/(86400*30)
-		dia= segundo/86400
-		escreva("O tempo de duração somente em anos é:",ano)
-		escreva("\nO tempo de duração somente em meses é:",mes)
-		escreva("\nO tempo de duração somente em dias é:",dia)
+		leia(segundos)
+		
+		hora = segundos/3600
+		minuto = (segundos % 3600) / 60
+		segundo = (segundos % 3600) % 60
+		
+		escreva("O tempo de duração somente em horas é:",hora)
+		escreva("\nO tempo de duração somente em minutos é:",minuto)
+		escreva("\nO tempo de duração somente em segundos é:",segundo)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 156; 
+ * @POSICAO-CURSOR = 435; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
