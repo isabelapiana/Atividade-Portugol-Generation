@@ -1,2 +1,2 @@
-# Exercícios-de-Portugol---Generation
+# Atividades-Portugol-Generation
 Aprendendo a utilizar Portugol com a Generation
