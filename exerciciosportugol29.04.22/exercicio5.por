@@ -17,21 +17,25 @@ programa
 		escreva("Digite o índice de poluição")
 		leia(P)
 
-		se(P>=0.3 e P<0.4)
+		se(P>=0.05 e P<=0.25)
+		{
+			escreva("As indústrias estão liberadas.")
+		}
+		se(P>0.25 e P<=0.3)
 		{
 			escreva("As indústrias do primeiro grupo deverão suspender suas atividades.")
 		}
-		se(P>=0.4 e P<0.5)
+		se(P>0.3 e P<=0.4)
 		{
 			escreva("As indústrias do primeiro e do segundo grupo deverão suspender suas atividades.")
 		}
-		se(P>=0.5)
+		senao se(P>0.4)
 		{
-			escreva("Todos os grupos deverão paralisar suas atividades.")
+			escreva("Todos deverão suspender suas atividades.")
 		}
 		senao
 		{
-			escreva("Não há notificação.")
+			escreva("O valor não é classificado!")
 		}
 	}
 }
@@ -41,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1090; 
+ * @POSICAO-CURSOR = 1132; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
