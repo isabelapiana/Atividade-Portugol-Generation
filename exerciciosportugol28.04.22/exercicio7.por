@@ -1,6 +1,14 @@
+/*
+ * Um sistema de equações lineares do tipo: 
+ * ax+by=c ; dx + ey=f  
+ * Pode ser resolvido segundo mostrado abaixo : 
+ * x= (ce-bf)/(ae-bd) ; y= (af-cd)/(ae-bd)
+ * Escreva um sistema que lê os coeficientes a,b,c,d,e e f e calcula e mostra os
+valores de x e y.
+ */
 programa
 {
-	inclua biblioteca Matematica -->mat
+	inclua biblioteca Matematica -->mat
 	
 	funcao inicio()
 	{
@@ -37,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 555; 
+ * @POSICAO-CURSOR = 263; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
