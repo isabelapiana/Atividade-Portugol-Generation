@@ -12,8 +12,8 @@ programa
 	
 	funcao inicio()
 	{
-		real salario,media_salario,media_filhos,maior_salario=0,total_salario=0
-		inteiro x,filhos,total_filhos=0,total_salario_100=0,percentagem
+		real salario,media_salario,media_filhos,maior_salario=0,total_salario=0,percentagem
+		inteiro x,filhos,total_filhos=0,total_salario_100=0
 
 		para(x=1;x<=20;x++)
 		{
@@ -56,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 608; 
+ * @POSICAO-CURSOR = 517; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
